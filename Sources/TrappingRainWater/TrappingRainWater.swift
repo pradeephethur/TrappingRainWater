@@ -2,6 +2,11 @@
 // https://docs.swift.org/swift-book
 
 public class TrappingRainWater {
+    
+    public init() {
+        // initialization
+    }
+    
     public func trap(_ height: [Int]) -> Int {
         var totalWater = 0
         var left = 0
